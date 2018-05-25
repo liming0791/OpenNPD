@@ -4,7 +4,7 @@ Project of object detection.
 
 ## Usage:
 
-  1. Add needed librarys to 3rdpart folder(opencv).
+  1. ~~Add needed librarys to 3rdpart folder(opencv).~~
 
   2. Make: `cd src; make clean; make RELEASE=1; cd ..`;
 
@@ -25,7 +25,7 @@ Project of object detection.
 + Speed:
 
 | image size | window size | cores | time (ms) |
-| :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | 640x480 | 20x20 | 1 | ~50 |
 
 
@@ -45,7 +45,7 @@ Project of object detection.
 | stepR = 4, thresR = 0.3 | 1920x1080 | 20x20 | 202.147923 |	
 
 
-#License and Citation
+# License and Citation
 
 This software is free for noncommercial use. This software is provided "as is", without any warranty of upgradation or customized development. It is your own risk of using this software. The authors are not responsible for any damage caused by using this software. 
 
@@ -53,15 +53,13 @@ This software is free for noncommercial use. This software is provided "as is", 
 
 This software is based on the MATLAB edition. Thanks for the work of Liao et al. [Project page](http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html).
 
-> @article{
-
->      Author = {Shengcai Liao, Member, IEEE, Anil K. Jain, Fellow, IEEE, and Stan Z. Li, Fellow, IEEE},
-
->      Title = {A Fast and Accurate Unconstrained Face Detector},
-
->      Year = {2014}
-
->  }
+```
+@article {
+    Author = {Shengcai Liao, Member, IEEE, Anil K. Jain, Fellow, IEEE, and Stan Z. Li, Fellow, IEEE},
+    Title = {A Fast and Accurate Unconstrained Face Detector},
+    Year = {2014}
+}
+```
 
 
   [1]: http://static.zybuluo.com/No-Winter/4n2oqec9hqj80qic2ujebxmn/%E5%9B%BE%E7%89%871.png
